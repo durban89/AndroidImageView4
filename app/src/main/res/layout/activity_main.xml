@@ -12,12 +12,18 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:text="下载网络图片"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button"
-        android:text="下载网络图片"
+        android:id="@+id/button2"
+        android:text="byte[]方式下载网络图片"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
